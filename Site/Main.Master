@@ -1,0 +1,89 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="Site.Main" %>
+
+<!DOCTYPE HTML>
+
+<html>
+<head>
+    <%--stile personalizzato tylde--%>
+    <link rel="stylesheet" href="css/style-tylde.css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.0/jquery-ui.min.js"></script>
+
+    <asp:ContentPlaceHolder ID="cphHead" runat="server">
+        <title>Tylde S.a.s. | Consulenza e innovazione Como e Milano - Web, software, marketing e corsi di formazione per aziende e professionisti</title>
+        <meta name="description" content="Sviluppo web, software, marketing e corsi di formazione personalizzati Como e Milano. Applicazioni web, software innovativi, marketing e corsi di formazione per aziende e professionisti a Como e Milano" />
+        <meta name="keywords" content="software como, cloud como, siti web milano, siti web como, corso programmazione como, corso autocad como, corsi informatica milano, corsi informatica sesto san giovanni" />
+    </asp:ContentPlaceHolder>
+
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta property="og:image" content="images/tyldeLogo.png" />
+    <meta name="google-site-verification" content="MDzq38d2-fhVQo3yejc0YaUPAoE7PBHybTa44imBqhE" />
+    <link rel="SHORTCUT ICON" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="image_src" href="images/tyldeLogo.png" />
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-11319608-3', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic,700,900" rel="stylesheet" />
+    <!--[if lte IE 8]><script src="js/html5shiv.js"></script><link rel="stylesheet" href="css/ie8.css" /><![endif]-->
+    <asp:ContentPlaceHolder ID="cphHeadCSSLoading" runat="server">
+        <%--<script src="http://dmar.homepc.it/Site/js/tylde-script.js" type="text/javascript"></script>--%>
+        <script src='<% = Page.ResolveUrl("~/js/tylde-script.js") %>' type="text/javascript"></script>
+        <script src='<% = Page.ResolveUrl("~/js/jquery.min.js") %>' type="text/javascript"></script>
+        <script src='<% = Page.ResolveUrl("~/js/jquery.dropotron.js") %>' type="text/javascript"></script>
+        <script src='<% = Page.ResolveUrl("~/js/config.js") %>' type="text/javascript"></script>
+        <script src='<% = Page.ResolveUrl("~/js/skel.min.js") %>' type="text/javascript"></script>
+        <script src='<% = Page.ResolveUrl("~/js/skel-panels.min.js") %>' type="text/javascript"></script>
+    </asp:ContentPlaceHolder>
+    <noscript>
+        <link rel="stylesheet" href="css/skel-noscript.css" />
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/style-desktop.css" />
+    </noscript>
+</head>
+<body class="homepage">
+    <a href="index.aspx#home"><div class="fixedHome icon icon-home"></div></a>
+    <div id="site">
+        <tylde:home ID="home" runat="server" />
+        <asp:ContentPlaceHolder ID="cphOthersSitePart" runat="server">
+            <tylde:azienda ID="azienda" runat="server" />
+            <tylde:produzione ID="produzione" runat="server" />
+            <%--<tylde:corsi ID="corsi" runat="server" />--%>
+            <tylde:riferimenti ID="riferimenti" runat="server" />
+        </asp:ContentPlaceHolder>
+
+        <div class="footer-wrapper background-beige">
+            <div class="container">
+                <div class="row">
+                    <div class="12u">
+                        <!-- Copyright -->
+                        <div id="copyright">
+                            <p>
+                                <a href="index.aspx#home">Home</a> |
+                                <a href="index.aspx#azienda">Azienda</a> |
+                                <a href="index.aspx#produzione">Software &amp; Servizi</a> |
+                                <%--<a href="index.aspx#corsi">Corsi</a> |--%>
+                                <a href="index.aspx#rifs">Riferimenti</a> |
+                                <a href="sitemap.xml">Sitemap</a> |
+                                <a href="privacy.aspx">Privacy</a> | 
+                                <a href="disclaimer.aspx">Disclaimer</a>
+                            </p>
+                            <span class="text-grey">&copy; 2014 - <asp:Literal ID="ltCopyEndDate" runat="server"></asp:Literal> Tylde S.a.s. di Marzorati Davide &amp; C. - PIVA 03517610139 - Design by <a href="http://html5up.net/">HTML5 UP</a>.
+                            </span>
+                        </div>
+                        <!-- /Copyright -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

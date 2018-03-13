@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Site", "Site\Site.csproj", "{F7D8D202-426A-4165-987F-F06338C01B7C}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tylde.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Site\\Site.csproj
+		SccProjectName1 = Site
+		SccLocalPath1 = Site
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		LOCAL|Any CPU = LOCAL|Any CPU
+		PROD|Any CPU = PROD|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F7D8D202-426A-4165-987F-F06338C01B7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7D8D202-426A-4165-987F-F06338C01B7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7D8D202-426A-4165-987F-F06338C01B7C}.LOCAL|Any CPU.ActiveCfg = LOCAL|Any CPU
+		{F7D8D202-426A-4165-987F-F06338C01B7C}.LOCAL|Any CPU.Build.0 = LOCAL|Any CPU
+		{F7D8D202-426A-4165-987F-F06338C01B7C}.PROD|Any CPU.ActiveCfg = PROD|Any CPU
+		{F7D8D202-426A-4165-987F-F06338C01B7C}.PROD|Any CPU.Build.0 = PROD|Any CPU
+		{F7D8D202-426A-4165-987F-F06338C01B7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7D8D202-426A-4165-987F-F06338C01B7C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

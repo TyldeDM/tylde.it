@@ -1,0 +1,303 @@
+/*selectors*/
+ul li {
+    float: left;
+}
+
+    ul li input {
+        float: left;
+    }
+
+/*ID Selectors*/
+#copyright p{
+    font-size: 0.75em;
+    line-height:30px;
+}
+    #copyright p a{
+        text-decoration:none;
+    }
+
+/*classes*/
+.background-beige{
+    background-color: #c00!important;
+    color: #fff!important;
+}
+
+.list-square{
+    margin:0!important;
+}
+.list-square li{
+    list-style:square!important;
+    float:none!important;
+}
+
+.list-radio li {
+    width:175px;
+}
+    .list-radio li input {
+        margin:8px 0 0 5px!important;
+    }
+
+.list-radio li label
+{
+    padding:0 0 0 5px!important;
+    margin:0 0 0 20px!important;
+}
+
+.list-caratteristiche-corso > li {
+    float:none!important;
+    padding-bottom: 10px;
+}
+
+    .list-caratteristiche-corso > li:first-child {
+        padding-bottom: 50px;
+    }
+
+.list-programma-corso{
+    float:none;
+}
+
+.link-nodecoration
+{
+    text-decoration:none!important;
+}
+.link-produzione {
+    color: #CC0000 !important;
+}
+
+
+.div-center {
+    width:100%;
+    margin:20px 0 20px 0;
+    text-align:center;
+    line-height:100px;
+}
+
+/*products images*/
+a.rolloverSyte {
+    background: url("images/productsLogos/syte_hover.png") no-repeat;
+}
+
+    a.rolloverSyte:hover {
+        background: url("images/productsLogos/syte.png") no-repeat;
+    }
+
+/*work images*/
+a.rollover, a.rollover300 {
+    margin: 0 auto;
+    display: block;
+    width: 150px;
+    height: 150px;
+    text-decoration: none;
+
+    margin-bottom: 25px;
+}
+
+/*corsi images*/
+a.rolloverCSharp {
+    background: url("images/coursesLogos/corso_csharp.png") no-repeat;
+}
+
+    a.rolloverCSharp:hover {
+        background: url("images/coursesLogos/corso_csharp_hover.png") no-repeat;
+    }
+
+a.rolloverAutoCAD {
+    background: url("images/coursesLogos/corso_autocad.png") no-repeat;
+}
+
+    a.rolloverAutoCAD:hover {
+        background: url("images/coursesLogos/corso_autocad_hover.png") no-repeat;
+    }
+
+a.rollover300{
+    width: 300px;
+}
+
+a.rolloverSQLServer {
+    background: url("images/coursesLogos/corso_sqlserver.png") no-repeat;
+}
+
+    a.rolloverSQLServer:hover {
+        background: url("images/coursesLogos/corso_sqlserver_hover.png") no-repeat;
+    }
+
+a.rolloverFiat {
+    background: url("images/portfoliologos/fiat_hover.jpg") no-repeat;
+}
+
+    a.rolloverFiat:hover {
+        background: url("images/portfoliologos/fiat.jpg") no-repeat;
+    }
+
+a.rolloverSeat {
+    background: url("images/portfoliologos/seatpg_hover.jpg") no-repeat;
+}
+
+    a.rolloverSeat:hover {
+        background: url("images/portfoliologos/seatpg.jpg") no-repeat;
+    }
+
+a.rolloverIlme {
+    background: url("images/portfoliologos/ilme_hover.png") no-repeat;
+}
+
+    a.rolloverIlme:hover {
+        background: url("images/portfoliologos/ilme.png") no-repeat;
+    }
+
+a.rolloverRegione {
+    background: url("images/portfoliologos/regione_hover.png") no-repeat;
+}
+
+    a.rolloverRegione:hover {
+        background: url("images/portfoliologos/regione.png") no-repeat;
+    }
+
+a.rolloverSefin {
+    background: url("images/portfoliologos/sefin_hover.png") no-repeat;
+}
+
+    a.rolloverSefin:hover {
+        background: url("images/portfoliologos/sefin.png") no-repeat;
+    }
+
+a.rolloverCNH {
+    background: url("images/portfoliologos/cnh_hover.jpg") no-repeat;
+}
+
+    a.rolloverCNH:hover {
+        background: url("images/portfoliologos/cnh.jpg") no-repeat;
+    }
+
+a.rolloverMD {
+    background: url("images/portfoliologos/mediadream_hover.png") no-repeat;
+}
+
+    a.rolloverMD:hover {
+        background: url("images/portfoliologos/mediadream.png") no-repeat;
+    }
+
+a.rolloverBMW {
+    background: url("images/portfoliologos/bmw_hover.png") no-repeat;
+}
+
+    a.rolloverBMW:hover {
+        background: url("images/portfoliologos/bmw.png") no-repeat;
+    }
+
+/*icon classes*/
+.iconReset {
+    padding: 0;
+    margin: 0;
+    display: inline !important;
+}
+
+/*testi*/
+.text-little {
+    font-size: 0.6em;
+    font-weight: normal !important;
+    font-family: Verdana;
+}
+
+.text-title{
+    font-size: 1em;
+    margin: 0 0 0 5.15em!important;
+}
+
+.text-corsi-descripton
+{
+    font-size: 1em;
+    margin: 0 0 0 2.75em!important;
+}
+    .text-corsi-descripton p
+    {
+        margin:0!important;
+    }
+
+.text-descripton{
+    font-size: 0.85em;
+    margin: 0 0 1em 6.05em!important;
+}
+
+    .text-descripton p
+    {
+        margin:0!important;
+    }
+
+.text-red-link{
+    color: #c00;
+}
+.text-white {
+    color: #fff!important;
+}
+.text-grey {
+    color: #ccc!important;
+}
+.text-red::first-letter{
+    font-weight:bold;
+}
+.text-red-corsi::first-letter{
+    font-weight:bold;
+    color:#c00!important;
+}
+.text-bold {
+    font-weight:bold;
+}
+.text-underline{
+    text-decoration:underline;
+}
+.text-justify{
+    text-align:justify;
+}
+.text-indent{
+    padding-left:20px;
+}
+
+/*generics*/
+.clear {
+    clear: both;
+}
+.spacer20 {
+    line-height: 20px;
+}
+.spacer50 {
+    line-height: 50px;
+}
+.paddingLeft2
+{
+    padding-left: 2px;
+}
+.paddingLeft10
+{
+    padding-left: 10px;
+}
+.paddingLeft20
+{
+    padding-left: 20px;
+}
+
+/*overrides*/
+.wrapperFooter{
+    padding-bottom:1em!important;
+}
+
+#copyright{
+    margin-top:50px!important;
+    margin-bottom:3em!important;
+}
+
+    #copyright span
+    {
+        box-shadow: inset 0px 0px 1px 1px rgba(255,255,255,0.4)!important;
+    }
+
+/*fixed home link*/
+.fixedHome {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    left: 15px;
+    top: 55px;
+    z-index: 1001;
+    cursor: pointer; 
+}

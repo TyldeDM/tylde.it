@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F7D8D202-426A-4165-987F-F06338C01B7C}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Site</RootNamespace>
+    <AssemblyName>Site</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="corso-csharp-sesto-san-giovanni.aspx" />
+    <Content Include="css\fonts\fontawesome-social-webfont.svg" />
+    <Content Include="css\fonts\fontawesome-webfont.svg" />
+    <Content Include="css\ie8.css" />
+    <Content Include="css\images\coursesLogos\corso_autocad.png" />
+    <Content Include="css\images\coursesLogos\corso_autocad_hover.png" />
+    <Content Include="css\images\coursesLogos\corso_csharp.png" />
+    <Content Include="css\images\coursesLogos\corso_csharp_hover.png" />
+    <Content Include="css\images\coursesLogos\corso_sqlserver.png" />
+    <Content Include="css\images\coursesLogos\corso_sqlserver_hover.png" />
+    <Content Include="css\images\mobileUI-site-nav-opener-bg.svg" />
+    <Content Include="css\images\overlay.png" />
+    <Content Include="css\images\portfolioLogos\bmw.png" />
+    <Content Include="css\images\portfolioLogos\bmw_hover.png" />
+    <Content Include="css\images\portfolioLogos\cnh.jpg" />
+    <Content Include="css\images\portfolioLogos\cnh_hover.jpg" />
+    <Content Include="css\images\portfolioLogos\fiat.jpg" />
+    <Content Include="css\images\portfolioLogos\fiat_hover.jpg" />
+    <Content Include="css\images\portfolioLogos\ilme.png" />
+    <Content Include="css\images\portfolioLogos\ilme_hover.png" />
+    <Content Include="css\images\portfolioLogos\mediadream.png" />
+    <Content Include="css\images\portfolioLogos\mediadream_hover.png" />
+    <Content Include="css\images\portfolioLogos\regione.png" />
+    <Content Include="css\images\portfolioLogos\regione_hover.png" />
+    <Content Include="css\images\portfolioLogos\seatpg.jpg" />
+    <Content Include="css\images\portfolioLogos\seatpg_hover.jpg" />
+    <Content Include="css\images\portfolioLogos\sefin.png" />
+    <Content Include="css\images\portfolioLogos\sefin_hover.png" />
+    <Content Include="css\images\productsLogos\syte.png" />
+    <Content Include="css\images\productsLogos\syte_hover.png" />
+    <Content Include="css\images\shadow.png" />
+    <Content Include="css\skel-noscript.css" />
+    <Content Include="css\style-1000px.css" />
+    <Content Include="css\style-desktop.css" />
+    <Content Include="css\style-mobile.css" />
+    <Content Include="css\style-tylde.css" />
+    <Content Include="css\style.css" />
+    <Content Include="disclaimer.aspx" />
+    <Content Include="errorPage.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="images\banner.jpg" />
+    <Content Include="images\corso-csharp-sesto-san-giovanni.jpg" />
+    <Content Include="images\favicon.ico" />
+    <Content Include="images\logo_tylde_Original_Gray_firma.png" />
+    <Content Include="images\pic01_1.jpg" />
+    <Content Include="images\pic01_innovation.jpg" />
+    <Content Include="images\pic01_production.jpg" />
+    <Content Include="images\pic02.jpg" />
+    <Content Include="images\pic03.jpg" />
+    <Content Include="images\pic04.jpg" />
+    <Content Include="images\pic05.jpg" />
+    <Content Include="images\pic06.jpg" />
+    <Content Include="images\pic07.jpg" />
+    <Content Include="images\pic08.jpg" />
+    <Content Include="images\pic09.jpg" />
+    <Content Include="images\pic10.jpg" />
+    <Content Include="images\TyldeLogo.png" />
+    <Content Include="index.aspx" />
+    <Content Include="js\config.js" />
+    <Content Include="js\html5shiv.js" />
+    <Content Include="js\jquery.dropotron.js" />
+    <Content Include="js\jquery.min.js" />
+    <Content Include="js\skel-panels.min.js" />
+    <Content Include="js\skel.min.js" />
+    <Content Include="js\tylde-script.js" />
+    <Content Include="privacy.aspx" />
+    <Content Include="sitemap.xml" />
+    <Content Include="usercontrols\azienda.ascx" />
+    <Content Include="usercontrols\comingsoon.ascx" />
+    <Content Include="usercontrols\corsi.ascx" />
+    <Content Include="usercontrols\home.ascx" />
+    <Content Include="usercontrols\produzione.ascx" />
+    <Content Include="usercontrols\riferimenti.ascx" />
+    <Content Include="usercontrols\works.ascx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="corso-csharp-sesto-san-giovanni.aspx.cs">
+      <DependentUpon>corso-csharp-sesto-san-giovanni.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="corso-csharp-sesto-san-giovanni.aspx.designer.cs">
+      <DependentUpon>corso-csharp-sesto-san-giovanni.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="disclaimer.aspx.cs">
+      <DependentUpon>disclaimer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="disclaimer.aspx.designer.cs">
+      <DependentUpon>disclaimer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="errorPage.aspx.cs">
+      <DependentUpon>errorPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="errorPage.aspx.designer.cs">
+      <DependentUpon>errorPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Main.Master.cs">
+      <DependentUpon>Main.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Main.Master.designer.cs">
+      <DependentUpon>Main.Master</DependentUpon>
+    </Compile>
+    <Compile Include="privacy.aspx.cs">
+      <DependentUpon>privacy.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="privacy.aspx.designer.cs">
+      <DependentUpon>privacy.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="usercontrols\azienda.ascx.cs">
+      <DependentUpon>azienda.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="usercontrols\azienda.ascx.designer.cs">
+      <DependentUpon>azienda.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="usercontrols\comingsoon.ascx.cs">
+      <DependentUpon>comingsoon.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="usercontrols\comingsoon.ascx.designer.cs">
+      <DependentUpon>comingsoon.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="usercontrols\corsi.ascx.cs">
+      <DependentUpon>corsi.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="usercontrols\corsi.ascx.designer.cs">
+      <DependentUpon>corsi.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="usercontrols\home.ascx.cs">
+      <DependentUpon>home.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="usercontrols\home.ascx.designer.cs">
+      <DependentUpon>home.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="usercontrols\produzione.ascx.cs">
+      <DependentUpon>produzione.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="usercontrols\produzione.ascx.designer.cs">
+      <DependentUpon>produzione.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="usercontrols\riferimenti.ascx.cs">
+      <DependentUpon>riferimenti.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="usercontrols\riferimenti.ascx.designer.cs">
+      <DependentUpon>riferimenti.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="usercontrols\works.ascx.cs">
+      <DependentUpon>works.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="usercontrols\works.ascx.designer.cs">
+      <DependentUpon>works.ascx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="css\fonts\fontawesome-social-webfont.eot" />
+    <Content Include="css\fonts\fontawesome-social-webfont.ttf" />
+    <Content Include="css\fonts\fontawesome-social-webfont.woff" />
+    <Content Include="css\fonts\fontawesome-webfont.eot" />
+    <Content Include="css\fonts\fontawesome-webfont.ttf" />
+    <Content Include="css\fonts\fontawesome-webfont.woff" />
+    <Content Include="css\fonts\FontAwesome.otf" />
+    <Content Include="Main.Master" />
+    <None Include="Properties\PublishProfiles\tylde.it.pubxml" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Content\" />
+    <Folder Include="css\icons\" />
+    <Folder Include="Scripts\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'PROD|AnyCPU'">
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'LOCAL|AnyCPU'">
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>49621</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:49621/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
